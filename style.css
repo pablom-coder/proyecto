@@ -187,9 +187,10 @@ section_servicios{
     gap: .8em;
 }
 .titulo_proyecto{
-    text-align: center;
-    font-size: 2.5rem;
-    padding: 20px 0;
+    text-align: left;
+    font-size: 22px;
+    padding: 10px 0px 10px 0px;
+    /* padding: 20px 0; */
 }
 .proyectos_picture{
     position: relative;
@@ -309,8 +310,8 @@ section_servicios{
             margin: 20px;
         }
         .img-card img {
-            height: 350px;
-            width: 230px;    
+            height: 250px;
+            width: 300px;    
         }
     
     
@@ -337,21 +338,12 @@ section_servicios{
 
     footer {
         grid-area: footer;
-    }
-
-    
+    }    
         .agrupa-nosotros{
             display: flex;
         }
 
-        .titulo-nosotros{
-            font-size: 20px;
-            padding: 20px 0px 10px 120px;     
-
-        }
-
-        .nosotros {
-                    
+        .nosotros {                  
             
             display: flex;
             flex:2 1 60%;
@@ -364,10 +356,8 @@ section_servicios{
                 border: 3px solid gray;
             }
 
-            .nosotros h3{
-                
+            .nosotros h3{                
                 padding-top: 10px;
-
             }
 
         .areas-proyecto{
