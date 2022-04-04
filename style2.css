@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+footer {
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction:column;
+    background-color: #222;
+    border-radius: 5px;
+    padding-left: 20px;
+    box-shadow: 2px 3px 1px gray;
+    text-align: center;
+    color: white;
+}        
+    .blue {
+        color: blue;
+    }
+    .titulo-servicios{
+        font-size: 22px;
+        padding: 10px 0px 10px 0px;
+    }
+ 
+    #galeria img{
+        width: 100%;
+        height: 300px;
+    }
+    #galeria .col-md-6{
+        padding: 25px;
+    }
+    #galeria img:hover{
+        border: 5px solid #f7f7f7;
+    }
